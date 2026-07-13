@@ -7,4 +7,4 @@ def count_vowels(s):
     return c
 
 j = input("Enter a string: ")
-print(count_vowels(j))
+print("Number of vowels",count_vowels(j))
