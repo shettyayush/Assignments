@@ -1,0 +1,15 @@
+from models.person import Person
+
+
+class Doctor(Person):
+    def __init__(self, id, name, age, specialty):
+        super().__init__(id, name, age)
+        self.specialty = specialty
+
+    def get_details(self):
+        details = super().get_details()
+        details.update({"specialty": self.specialty})
+        return details
+
+    def display_info(self):
+        return f"ID: {self.id}, Name: {self.name}, Age: {self.age}, Specialty: {self.specialty}"

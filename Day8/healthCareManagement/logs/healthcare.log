@@ -1,0 +1,4 @@
+2026-07-15 15:17:06,024 - INFO - Healthcare system initialized
+2026-07-15 15:17:06,024 - INFO - Appointment booked: ID: 1, Patient ID: 1, Doctor ID: 101, Date: 2026-07-15, Time: 10:00, Status: Scheduled
+2026-07-15 15:17:21,651 - INFO - Healthcare system initialized
+2026-07-15 15:17:21,652 - INFO - Appointment booked: ID: 1, Patient ID: 1, Doctor ID: 101, Date: 2026-07-15, Time: 10:00, Status: Scheduled
